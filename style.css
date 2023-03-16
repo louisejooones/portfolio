@@ -12,10 +12,8 @@ body {
 
 p {
     color: #111111;
-    font-family: 'Homemade Apple', cursive;
     text-align: center;
-    font-size: 30px;
-    margin: 20% auto 0 auto;
+    margin: 20% auto;
 }
 
 header, footer {
@@ -67,6 +65,7 @@ img.social {
     height: 400px;
     grid-row: 1;
     grid-column: 1;
+    background-color: transparent;
 }
 
 h1 {
@@ -89,16 +88,18 @@ main.portfolio {
 }
 
 .portfolio-item {
-    color: #48284A;
     margin: 0;
     border: 4px solid #916C80;
     height: 100%;
     width:  100%;
-    text-align: center;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
 }
 
 .portfolio-item > * {
     height: 100%;
+    color: #48284A;
 }
 
 .item-one {
